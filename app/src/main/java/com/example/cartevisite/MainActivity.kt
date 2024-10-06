@@ -49,7 +49,7 @@ fun BusinessCard() {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
-        // Logo Android
+
         Image(
             painter = painterResource(id = R.drawable.hbib),
             contentDescription = stringResource(id = R.string.app_name),
@@ -59,7 +59,7 @@ fun BusinessCard() {
         Spacer(modifier = Modifier.height(36.dp))
 
 
-        // Nom et titre
+
         Text(
             text = "Dimassi Habib",
             fontSize = 24.sp,
